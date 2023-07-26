@@ -10,7 +10,7 @@ This is just a simple bot to use for role play games
 To run the bot you need to create a .env file in the root directory of the project and add the following variables
 
 ```env
-DISCORD_TOKEN="your_discord_bot_token"
+DISCORD_TOKEN="your_discord_bot_token" //replace with your discord bot token
 ```
 
 ### Install
