@@ -1,0 +1,28 @@
+{
+  "name": "role_play_discord_bot",
+  "version": "0.0.1",
+  "description": "Simple role play bot for personal use",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Titouan-Loeb/RolePlayBot.git"
+  },
+  "keywords": [
+    "RP",
+    "role",
+    "play",
+    "bot"
+  ],
+  "author": "Teheyl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Titouan-Loeb/RolePlayBot/issues"
+  },
+  "homepage": "https://github.com/Titouan-Loeb/RolePlayBot#readme",
+  "dependencies": {
+    "discord.js": "^14.11.0"
+  }
+}
