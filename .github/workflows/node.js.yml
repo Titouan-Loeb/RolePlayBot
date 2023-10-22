@@ -28,4 +28,10 @@ jobs:
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
     - run: npm install
-    - run: npm run start
+    - name: Run bot
+      run: |
+        timeout 10s npm run start
+        if [ $? -eq 124 ]; then
+            echo "Command timed out"
+            exit 0  # Set a custom exit code
+        fi
