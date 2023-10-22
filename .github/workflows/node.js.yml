@@ -29,9 +29,4 @@ jobs:
       uses: actions/setup-node@v3
     - run: npm install
     - name: Run bot
-      run: |
-        timeout 10s npm run start
-        if [ $? -eq 124 ]; then
-            echo "Command timed out"
-            exit 0  # Set a custom exit code
-        fi
+      run: ./scripts/test_running.sh
