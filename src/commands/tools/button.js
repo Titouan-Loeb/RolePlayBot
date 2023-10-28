@@ -6,8 +6,8 @@ module.exports = {
     .setDescription("Returns your button!"),
   async execute(interaction, client) {
     const button = new ButtonBuilder()
-      .setCustomId("sub-yt")
-      .setLabel("Button")
+      .setCustomId("reveal-yt")
+      .setLabel("Reveal link")
       .setStyle(ButtonStyle.Primary);
     
     await interaction.reply({

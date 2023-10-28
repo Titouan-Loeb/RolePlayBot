@@ -26,6 +26,17 @@ module.exports = {
       } catch (err) {
         console.error(err);
       }
+    } else if (interaction.isModalSubmit()) {
+      const { modals } = client;
+      const { customId } = interaction;
+      const modal = modals.get(customId);
+      if (!modal) return new Error("Modal not found.");
+
+      try {
+        await modal.execute(interaction, client);
+      } catch (err) {
+        console.error(err);
+      }
     }
   },
 };

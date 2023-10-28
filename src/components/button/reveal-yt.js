@@ -1,10 +1,11 @@
 module.exports = {
   data: {
-    name: "sub-yt",
+    name: "reveal-yt",
   },
   async execute(interaction, client) {
-    await interaction.reply({
+    await interaction.message.edit({
       content: "https://www.youtube.com",
+      components: []
     });
   },
 };

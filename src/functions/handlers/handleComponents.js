@@ -15,6 +15,12 @@ module.exports = (client) => {
             client.buttons.set(button.data.name, button);
           }
           break;
+        case "modal":
+          for (const file of componentsFiles) {
+            const modal = require(`../../components/${folder}/${file}`);
+            client.modals.set(modal.data.name, modal);
+          }
+          break;
       }
     }
   };
