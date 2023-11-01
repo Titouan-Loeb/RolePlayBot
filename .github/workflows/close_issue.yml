@@ -1,7 +1,7 @@
 name: Project Automation
 
 on:
-  project_card:
+  issues:
     types:
       - moved
 
