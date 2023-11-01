@@ -1,8 +1,6 @@
 name: Project Automation
 
-on:
-  issues:
-    types: [edited]
+on: project_card
 
 jobs:
   project_automation:
