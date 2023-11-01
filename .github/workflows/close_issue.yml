@@ -1,8 +1,6 @@
 name: Project Automation
 
-on:
-  issues:
-    types: [moved]
+on: issues
 
 jobs:
   project_automation:
