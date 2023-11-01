@@ -1,6 +1,8 @@
 name: Project Automation
 
-on: issues
+on:
+  issues:
+    types: [edited]
 
 jobs:
   project_automation:
