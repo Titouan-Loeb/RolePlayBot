@@ -13,6 +13,7 @@ To run the bot you need to create a .env file in the root directory of the proje
 DISCORD_TOKEN="your_discord_bot_token" //replace with your discord bot token
 DISCORD_CLIENT_ID="your_discord_client_id" //replace with your discord client id
 DISCORD_GUILD_ID="your_discord_guild_id" //replace with your discord guild id
+DATABASE_TOKEN="your_mongo_database_token" //replace with your mongo database token
 ```
 
 >The "DISCORD_TOKEN" is the token of the bot that you can find in the discord developer portal
